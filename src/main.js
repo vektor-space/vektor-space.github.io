@@ -1,4 +1,4 @@
-import * as THREE from 'https://threejsfundamentals.org/threejs/resources/threejs/r114/build/three.module.js';
+/*import * as THREE from 'https://threejsfundamentals.org/threejs/resources/threejs/r114/build/three.module.js';
 import {OrbitControls} from 'https://threejsfundamentals.org/threejs/resources/threejs/r114/examples/jsm/controls/OrbitControls.js';
 import {FBXLoader} from 'https://threejsfundamentals.org/threejs/resources/threejs/r114/examples/jsm/loaders/FBXLoader.js';
 
@@ -88,7 +88,7 @@ yLoader.load('https://res.cloudinary.com/vektor/raw/upload/v1613271274/Zombie_De
         yBot.rotation.set(0,2,0);
         scene.add(yBot);
     });
-*/
+
   
     renderer = new THREE.WebGLRenderer({antialias: true});
     renderer.setPixelRatio(window.devicePixelRatio);
@@ -116,7 +116,10 @@ function animate() {
     renderer.render(scene, camera);
 }
 
-/*import {
+
+*/
+
+import {
   BoxBufferGeometry,
   Color,
   Mesh,
@@ -136,7 +139,7 @@ const container = document.querySelector('#scene-container');
 const scene = new Scene();
 
 // Set the background color
-scene.background = new Color('skyblue');
+scene.background = new Color('red');
 
 // Create a camera
 const fov = 35; // AKA Field of View
