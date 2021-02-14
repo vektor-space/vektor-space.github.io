@@ -54,9 +54,10 @@ function init() {
     
     // models
     var xLoader = new FBXLoader();
-//xLoader.load('https://res.cloudinary.com/natesc-loud/raw/upload/v1588540853/Defeated_kr8h5d.fbx', function(xBot) {
+   //xLoader.load('https://res.cloudinary.com/natesc-loud/raw/upload/v1588540853/Defeated_kr8h5d.fbx', function(xBot) {
+   //xLoader.load('https://res.cloudinary.com/vektor/raw/upload/v1613271274/Zombie_Death_gq82q2_mrmgm2.fbx', function(xBot) {
+    xLoader.load('https://res.cloudinary.com/vektor/raw/upload/v1613277703/Radial_Engine_to_Skfb_dnr0pv.fbx', function(xBot) {
 
-  xLoader.load('https://res.cloudinary.com/vektor/raw/upload/v1613271274/Zombie_Death_gq82q2_mrmgm2.fbx', function(xBot) {
 
         xMixer = new THREE.AnimationMixer(xBot);
         var xAction = xMixer.clipAction(xBot.animations[0]);
