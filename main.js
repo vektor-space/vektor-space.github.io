@@ -19,8 +19,8 @@ function init() {
     camera.position.set(100, 200, 300);
 
     scene = new THREE.Scene();
-    scene.background = new THREE.Color(0x000000);
-    scene.fog = new THREE.Fog(0xa0a0a0, 200, 1000);
+    scene.background = new THREE.Color(0xffffff);
+    scene.fog = new THREE.Fog(0xffffff, 200, 1000);
 
     light = new THREE.HemisphereLight(0xffffff, 0x444444);
     light.position.set(0, 200, 0);
