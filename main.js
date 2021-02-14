@@ -1,4 +1,4 @@
-/*import * as THREE from 'https://threejsfundamentals.org/threejs/resources/threejs/r114/build/three.module.js';
+import * as THREE from 'https://threejsfundamentals.org/threejs/resources/threejs/r114/build/three.module.js';
 import {OrbitControls} from 'https://threejsfundamentals.org/threejs/resources/threejs/r114/examples/jsm/controls/OrbitControls.js';
 import {FBXLoader} from 'https://threejsfundamentals.org/threejs/resources/threejs/r114/examples/jsm/loaders/FBXLoader.js';
 
@@ -69,8 +69,8 @@ function init() {
         scene.add(xBot);
     });
   
-    /* Second Model loading
-    var yLoader = new FBXLoader();
+/*    
+var yLoader = new FBXLoader();
 //yLoader.load('https://res.cloudinary.com/natesc-loud/raw/upload/v1588540857/Zombie_Death.fbx', function(yBot) {
 
 yLoader.load('https://res.cloudinary.com/vektor/raw/upload/v1613271274/Zombie_Death_gq82q2_mrmgm2.fbx', function(yBot) {
@@ -87,7 +87,8 @@ yLoader.load('https://res.cloudinary.com/vektor/raw/upload/v1613271274/Zombie_De
         yBot.position.set(-75,0,-75);
         yBot.rotation.set(0,2,0);
         scene.add(yBot);
-    });
+    }); 
+*/
 
   
     renderer = new THREE.WebGLRenderer({antialias: true});
@@ -117,5 +118,4 @@ function animate() {
 }
 
 
-*/
 
