@@ -69,8 +69,11 @@ function init() {
             }
         });
         
-        xBot.position.set(25,0,-100); // x,y,z
-        xBot.rotation.set(0,-0.2,0); // x,y,z
+        xBot.position.set(0,0,0); // x,y,z
+        xBot.rotation.set(0,0,0); // x,y,z
+        
+        //xBot.position.set(25,0,-100); // x,y,z
+        //xBot.rotation.set(0,-0.2,0); // x,y,z
         scene.add(xBot);
     });
   
