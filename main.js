@@ -44,11 +44,13 @@ function init() {
     mesh.receiveShadow = true;
     scene.add(mesh);
 
+    /* GRID
     var grid = new THREE.GridHelper(2000, 20, "#000000", 0x000000);
     grid.material.opacity = 0.2;
     grid.material.transparent = true;
     scene.add(grid);
-
+    */ 
+    
     // models
     var xLoader = new FBXLoader();
 //xLoader.load('https://res.cloudinary.com/natesc-loud/raw/upload/v1588540853/Defeated_kr8h5d.fbx', function(xBot) {
