@@ -26,7 +26,7 @@ function init() {
     light.position.set(0, 200, 0);
     scene.add(light);
 
-    light = new THREE.DirectionalLight(0x00ffff);
+    light = new THREE.DirectionalLight(0xffffff);
     light.position.set(0, 200, 100);
     light.castShadow = true;
     light.shadow.camera.top = 360;//180;
@@ -70,7 +70,7 @@ function init() {
             }
         });
         
-        xBot.position.set(0,-20,0); // x,y,z
+        xBot.position.set(0,0,0); // x,y,z
         xBot.rotation.set(0,0,0); // x,y,z
         
         //xBot.position.set(25,0,-100); // x,y,z
