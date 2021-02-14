@@ -26,7 +26,7 @@ function init() {
     light.position.set(0, 200, 0);
     scene.add(light);
 
-    light = new THREE.DirectionalLight(0xffffff);
+    light = new THREE.DirectionalLight(0x00ffff);
     light.position.set(0, 200, 100);
     light.castShadow = true;
     light.shadow.camera.top = 360;//180;
@@ -56,8 +56,9 @@ function init() {
     var xLoader = new FBXLoader();
    //xLoader.load('https://res.cloudinary.com/natesc-loud/raw/upload/v1588540853/Defeated_kr8h5d.fbx', function(xBot) {
    //xLoader.load('https://res.cloudinary.com/vektor/raw/upload/v1613271274/Zombie_Death_gq82q2_mrmgm2.fbx', function(xBot) {
-    xLoader.load('https://res.cloudinary.com/vektor/raw/upload/v1613277703/Radial_Engine_to_Skfb_dnr0pv.fbx', function(xBot) {
-
+   //xLoader.load('https://res.cloudinary.com/vektor/raw/upload/v1613277703/Radial_Engine_to_Skfb_dnr0pv.fbx', function(xBot) {
+   xLoader.load('https://res.cloudinary.com/vektor/raw/upload/v1613279527/Radial_Engine_to_Skfb_001_onkmpb.fbx', function(xBot) {
+   
 
         xMixer = new THREE.AnimationMixer(xBot);
         var xAction = xMixer.clipAction(xBot.animations[0]);
