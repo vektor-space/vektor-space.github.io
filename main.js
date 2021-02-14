@@ -19,7 +19,7 @@ function init() {
     camera.position.set(100, 200, 300);
 
     scene = new THREE.Scene();
-    scene.background = new THREE.Color(0x00ffff);
+    scene.background = new THREE.Color(0xfff0ff);
     scene.fog = new THREE.Fog(0xffffff, 200, 1000);
 
     light = new THREE.HemisphereLight(0xffffff, 0x444444);
@@ -70,7 +70,7 @@ function init() {
             }
         });
         
-        xBot.position.set(0,0,0); // x,y,z
+        xBot.position.set(0,-200,0); // x,y,z
         xBot.rotation.set(0,0,0); // x,y,z
         
         //xBot.position.set(25,0,-100); // x,y,z
