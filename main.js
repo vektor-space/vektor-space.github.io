@@ -29,14 +29,14 @@ function init() {
     light = new THREE.DirectionalLight(0xffffff);
     light.position.set(0, 200, 100);
     light.castShadow = true;
-    light.shadow.camera.top = 180;
-    light.shadow.camera.bottom = -100;
-    light.shadow.camera.left = -120;
-    light.shadow.camera.right = 120;
+    light.shadow.camera.top = 360;//180;
+    light.shadow.camera.bottom = -200;//-100;
+    light.shadow.camera.left = -240;//-120;
+    light.shadow.camera.right = 240;//120;
     scene.add(light);
 
     // ground
-    var mesh = new THREE.Mesh(new THREE.PlaneBufferGeometry(10000, 10000), new THREE.MeshPhongMaterial({
+    var mesh = new THREE.Mesh(new THREE.PlaneBufferGeometry(2000, 2000), new THREE.MeshPhongMaterial({
         color: 0x999999,
         depthWrite: false
     }));
