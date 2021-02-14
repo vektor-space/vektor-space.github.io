@@ -15,12 +15,12 @@ function init() {
     container = document.querySelector('#scene-container');
     document.body.appendChild(container);
 
-    camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 1, 2000);
+    camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 1, 20000);
     camera.position.set(100, 200, 300);
 
     scene = new THREE.Scene();
     scene.background = new THREE.Color(0xffffff);
-    scene.fog = new THREE.Fog(0xffffff, 200, 1000);
+    //scene.fog = new THREE.Fog(0xffffff, 200, 1000);
 
     light = new THREE.HemisphereLight(0xffffff, 0x444444);
     light.position.set(0, 200, 0);
