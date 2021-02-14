@@ -49,6 +49,7 @@ function init() {
     grid.material.opacity = 0.2;
     grid.material.transparent = true;
     scene.add(grid);
+    
     */ 
     
     // models
