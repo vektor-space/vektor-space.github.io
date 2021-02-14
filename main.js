@@ -70,7 +70,7 @@ function init() {
         scene.add(xBot);
     });
   
-/*    
+   
 var yLoader = new FBXLoader();
 //yLoader.load('https://res.cloudinary.com/natesc-loud/raw/upload/v1588540857/Zombie_Death.fbx', function(yBot) {
 
@@ -89,7 +89,7 @@ yLoader.load('https://res.cloudinary.com/vektor/raw/upload/v1613271274/Zombie_De
         yBot.rotation.set(0,2,0);
         scene.add(yBot);
     }); 
-*/
+
 
   
     renderer = new THREE.WebGLRenderer({antialias: true});
