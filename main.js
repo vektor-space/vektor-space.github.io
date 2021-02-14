@@ -37,7 +37,7 @@ function init() {
 
     // ground
     var mesh = new THREE.Mesh(new THREE.PlaneBufferGeometry(2000, 2000), new THREE.MeshPhongMaterial({
-        color: 0x999999,
+        color: 0xff0000,
         depthWrite: false
     }));
     mesh.rotation.x = -Math.PI / 2;
