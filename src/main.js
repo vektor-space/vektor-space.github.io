@@ -119,6 +119,7 @@ function animate() {
 
 */
 
+
 import {
   BoxBufferGeometry,
   Color,
@@ -139,7 +140,7 @@ const container = document.querySelector('#scene-container');
 const scene = new Scene();
 
 // Set the background color
-scene.background = new Color('yellow');
+scene.background = new Color('red');
 
 // Create a camera
 const fov = 35; // AKA Field of View
