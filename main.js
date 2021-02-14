@@ -36,7 +36,7 @@ function init() {
     scene.add(light);
 
     // ground
-    var mesh = new THREE.Mesh(new THREE.PlaneBufferGeometry(6000, 6000), new THREE.MeshPhongMaterial({
+    var mesh = new THREE.Mesh(new THREE.PlaneBufferGeometry(10000, 10000), new THREE.MeshPhongMaterial({
         color: 0x999999,
         depthWrite: false
     }));
