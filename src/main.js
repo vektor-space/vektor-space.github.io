@@ -139,7 +139,7 @@ const container = document.querySelector('#scene-container');
 const scene = new Scene();
 
 // Set the background color
-scene.background = new Color('red');
+scene.background = new Color('yellow');
 
 // Create a camera
 const fov = 35; // AKA Field of View
@@ -178,4 +178,4 @@ renderer.setPixelRatio(window.devicePixelRatio);
 container.append(renderer.domElement);
 
 // render, or 'create a still image', of the scene
-renderer.render(scene, camera);*/
+renderer.render(scene, camera);
