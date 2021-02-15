@@ -71,6 +71,7 @@ function init() {
                 child.castShadow = true;
                 child.receiveShadow = true;
                 if( child instanceof THREE.Mesh ){
+                    console.log('Mesh detected!');
                     child.material.shading = THREE.SmoothShading;
                 }
             }
