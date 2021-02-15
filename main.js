@@ -70,7 +70,7 @@ function init() {
             }
         });
         
-        xBot.position.set(0,200,0); // x,y,z
+        xBot.position.set(0,150,0); // x,y,z
         xBot.rotation.set(0,0,0); // x,y,z
         
         //xBot.position.set(25,0,-100); // x,y,z
