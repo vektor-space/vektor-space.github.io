@@ -16,8 +16,10 @@ function init() {
     document.body.appendChild(container);
 
     camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 1, 20000);
-    camera.position.set(100, 200, 300);
+    //camera.position.set(100, 200, 300);
+    camera.position.set(0, 200, 0);
 
+    
     scene = new THREE.Scene();
     scene.background = new THREE.Color(0xffffff);
     //scene.fog = new THREE.Fog(0xffffff, 200, 1000);
@@ -109,8 +111,10 @@ yLoader.load('https://res.cloudinary.com/vektor/raw/upload/v1613271274/Zombie_De
     container.appendChild(renderer.domElement);
 
     controls = new OrbitControls(camera, renderer.domElement);
+    //camera.position.set()
     controls.target.set(0, 50, 0);
     controls.update();
+    controls.
 
     window.addEventListener('resize', onWindowResize, false);
 }
