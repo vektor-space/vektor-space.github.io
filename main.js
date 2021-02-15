@@ -70,6 +70,9 @@ function init() {
             if (child.isMesh) {
                 child.castShadow = true;
                 child.receiveShadow = true;
+                if( child instanceof THREE.Mesh ){
+                    child.material.shading = THREE.SmoothShading;
+                }
             }
         });
         
