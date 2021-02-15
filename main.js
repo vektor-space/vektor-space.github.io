@@ -112,7 +112,7 @@ yLoader.load('https://res.cloudinary.com/vektor/raw/upload/v1613271274/Zombie_De
 
     controls = new OrbitControls(camera, renderer.domElement);
     //camera.position.set()
-    controls.target.set(0, 50, 0);
+    controls.target.set(0, 75, 0);
     controls.update();
     
 
