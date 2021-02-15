@@ -60,7 +60,9 @@ function init() {
    //xLoader.load('https://res.cloudinary.com/natesc-loud/raw/upload/v1588540853/Defeated_kr8h5d.fbx', function(xBot) {
    //xLoader.load('https://res.cloudinary.com/vektor/raw/upload/v1613271274/Zombie_Death_gq82q2_mrmgm2.fbx', function(xBot) {
    xLoader.load('https://res.cloudinary.com/vektor/raw/upload/v1613277703/Radial_Engine_to_Skfb_dnr0pv.fbx', function(xBot) {
-   //xLoader.load('https://res.cloudinary.com/vektor/raw/upload/v1613279527/Radial_Engine_to_Skfb_001_onkmpb.fbx', function(xBot) {
+   xLoader.load('https://res.cloudinary.com/vektor/raw/upload/v1613372265/piston_animado.fbx_fq7qzu.fbx', function(xBot) {
+   
+  //xLoader.load('https://res.cloudinary.com/vektor/raw/upload/v1613279527/Radial_Engine_to_Skfb_001_onkmpb.fbx', function(xBot) {
    
 
         xMixer = new THREE.AnimationMixer(xBot);
